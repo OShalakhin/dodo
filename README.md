@@ -1,5 +1,7 @@
 # DODO check domains available in .com
 
+## Usage
+
 Simple usage:
 
 ```bash
@@ -16,4 +18,13 @@ dodo -f domains_to_test.txt
 [NO] bamboo.com
 [NO] google.com
 [YES] example.com
+```
+
+## Installation
+
+Download dodo.
+
+```bash
+go get dodo
+go install dodo
 ```
