@@ -1,5 +1,5 @@
-// Checkdomains is a tiny console application to check quickly if domain name is
-// already reserved
+// Dodo is a tiny console application to check quickly if domain name is
+// already reserved for .com
 package main
 
 import (
