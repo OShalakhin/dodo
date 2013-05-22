@@ -44,9 +44,9 @@ func check(domain string) {
     re := regexp.MustCompile("No match")
     ending := fmt.Sprint("\t", domain, "\n")
     if re.FindString(string(output)) != "" {
-        color.Print("@g[OK]", ending)
+        color.Print("@g[Open]", ending)
     } else {
-        color.Print("@r[NO]", ending)
+        color.Print("@r[Taken]", ending)
     }
 }
 
