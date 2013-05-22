@@ -35,7 +35,7 @@ func main() {
     }
 }
 
-func check(domain string) (result string) {
+func check(domain string) {
     domain = fmt.Sprint(domain, ".com")
     output, err := exec.Command("whois", domain).Output()
     if err != nil {
@@ -48,7 +48,6 @@ func check(domain string) (result string) {
     } else {
         color.Print("@r[NO]", ending)
     }
-    return
 }
 
 func handle(file string) {
