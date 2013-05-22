@@ -11,7 +11,6 @@ import (
     "os/exec"
     "regexp"
 
-    // "github.com/wsxiaoys/terminal"
     "github.com/wsxiaoys/terminal/color"
 )
 
