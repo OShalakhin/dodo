@@ -15,9 +15,12 @@ or check text in files:
 ```bash
 dodo -f domains_to_test.txt
 
-[NO] bamboo.com
-[NO] google.com
-[YES] example.com
+[NOT FREE] bamboo.com
+[NOT FREE] google.com
+[FREE]     example.com
+
+dodo -show-free-only=true -f domains_to_test.txt
+[FREE]     example.com
 ```
 
 ## Installation
